@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #e4ded4;
+      }
+      .container {
+        background-color: #ffffff;
+        margin: 40px auto;
+        max-width: 650px;
+      }
+      h1 {
+        padding-top: 20px;
+        text-align: center;
+      }
+      .todo-items {
+        margin: 40px auto;
+        max-width: 500px;
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #f1f1f1;
+      }
+      input:checked + p {
+        text-decoration: line-through;
+      }
+      p {
+        margin: 0;
+        padding: 20px;
+        transition: background 0.2s;
+        flex: 1;
+        font-family: "helvetica neue";
+        font-size: 20px;
+        font-weight: 200;
+        border-left: 1px solid #d1e2ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TO DO LIST</h1>
+      <div class="todo-items">
+        <div class="item">
+          <input type="checkbox" />
+          <p>Item one</p>
+        </div>
+        <div class="item">
+          <input type="checkbox" />
+          <p>item two</p>
+        </div>
+        <div class="item">
+          <input type="checkbox" />
+          <p>item three</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
