@@ -1,0 +1,50 @@
+body {
+  background-color: #e4ded4;
+}
+.container {
+  background-color: #ffffff;
+  margin: 40px auto;
+  max-width: 650px;
+}
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.todo-items {
+  margin: 40px auto;
+  max-width: 500px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+input:checked + p {
+  text-decoration: line-through;
+}
+p {
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid #d1e2ff;
+}
+.input-class {
+  padding: 20px 0;
+  text-align: center;
+}
+#input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+input[type="submit"] {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: white;
+}
